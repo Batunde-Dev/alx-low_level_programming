@@ -9,3 +9,6 @@ C - More functions, more nested loops
 
 4- Write a function that prints the numbers, from 0 to 9, followed by a new line.
 
+5- I believe in numbers and signs.
+
+5- Write a function that prints 10 times the numbers, from 0 to 14, followed by a new line.
