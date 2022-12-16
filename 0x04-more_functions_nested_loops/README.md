@@ -16,3 +16,5 @@ C - More functions, more nested loops
 
 6- Write a function that draws a straight line in the terminal.
 
+7- Write a function that draws a diagonal line on the terminal.
+
