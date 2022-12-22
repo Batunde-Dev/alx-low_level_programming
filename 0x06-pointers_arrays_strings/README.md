@@ -16,3 +16,5 @@ C - More pointers, arrays and strings
 
 7 - Write a function that encodes a string into 1337.
 
+8 - Write a function that encodes a string using rot13.
+
