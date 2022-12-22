@@ -12,3 +12,5 @@ C - More pointers, arrays and strings
 
 5 - Write a function that changes all lowercase letters of a string to uppercase.
 
+6 - Write a function that capitalizes all words of a string.
+
