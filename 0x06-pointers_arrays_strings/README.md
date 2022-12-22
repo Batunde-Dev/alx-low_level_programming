@@ -14,3 +14,5 @@ C - More pointers, arrays and strings
 
 6 - Write a function that capitalizes all words of a string.
 
+7 - Write a function that encodes a string into 1337.
+
