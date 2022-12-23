@@ -6,6 +6,7 @@
 void print_number(int n)
 {
 	int count, y, k;
+
 	y = 1000000000;
 	if (n == 0)
 		_putchar('0');
@@ -22,7 +23,7 @@ void print_number(int n)
 			k = (-(n / y) % 10);
 			if (k < 0)
 				k *= -1;
-				_putchar(k + '0');
+			_putchar(k + '0');
 		}
 	}
 }
