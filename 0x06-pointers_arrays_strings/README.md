@@ -18,3 +18,5 @@ C - More pointers, arrays and strings
 
 8 - Write a function that encodes a string using rot13.
 
+9 - Write a function that prints an integer.
+
