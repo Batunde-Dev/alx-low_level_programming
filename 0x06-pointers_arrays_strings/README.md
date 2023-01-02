@@ -24,3 +24,5 @@ C - More pointers, arrays and strings
 
 11 - Write a function that adds two numbers.
 
+12 - Write a function that prints a buffer.
+
