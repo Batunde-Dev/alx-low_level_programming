@@ -4,3 +4,5 @@ C - Even more pointers, arrays and strings
 
 1 - Write a function that copies memory area.
 
+2 - Write a function that locates a character in a string.
+
