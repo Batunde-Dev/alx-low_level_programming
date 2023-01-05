@@ -12,3 +12,5 @@ C - Even more pointers, arrays and strings
 
 5 - Write a function that locates a substring.
 
+6 - Write a function that prints the chessboard.
+
