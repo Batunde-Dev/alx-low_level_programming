@@ -7,3 +7,5 @@ C - Recursion
 
 3 - Write a function that returns the factorial of a given number.
 
+4 - Write a function that returns the value of x raised to the power of y.
+
