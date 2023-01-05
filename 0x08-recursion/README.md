@@ -9,3 +9,5 @@ C - Recursion
 
 4 - Write a function that returns the value of x raised to the power of y.
 
+5 - Write a function that returns the natural square root of a number.
+
