@@ -7,3 +7,5 @@ C - argc, argv
 
 2 - Write a program that prints all arguments it receives.
 
+3 - Write a program that multiplies two numbers.
+
