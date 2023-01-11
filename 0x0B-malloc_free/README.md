@@ -11,3 +11,5 @@ C - malloc, free
 
 5 - Write a function that concatenates all the arguments of your program.
 
+6 - Write a function that splits a string into words.
+
