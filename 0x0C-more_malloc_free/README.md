@@ -10,3 +10,5 @@ C - More malloc, free
 
 4 - Write a function that reallocates a memory block using malloc and free
 
+5 - Write a program that multiplies two positive numbers.
+
