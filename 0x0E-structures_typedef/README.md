@@ -9,3 +9,5 @@ C - Structures, typedef
 
 4 - Write a function that creates a new dog.
 
+5 - Write a function that frees dogs.
+
