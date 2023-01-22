@@ -8,3 +8,5 @@ C - Function pointers
 
 3 - Write a program that performs simple operations.
 
+4 - Write a program that prints the opcodes of its own main function.
+
