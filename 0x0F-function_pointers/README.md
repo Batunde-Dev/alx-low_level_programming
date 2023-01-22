@@ -6,3 +6,5 @@ C - Function pointers
 
 2 - Write a function that searches for an integer.
 
+3 - Write a program that performs simple operations.
+
