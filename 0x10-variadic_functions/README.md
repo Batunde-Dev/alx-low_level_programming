@@ -4,3 +4,5 @@ C - Variadic functions
 
 1 - Write a function that prints numbers, followed by a new line.
 
+2 - Write a function that prints strings, followed by a new line.
+
