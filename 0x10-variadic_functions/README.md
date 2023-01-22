@@ -6,3 +6,5 @@ C - Variadic functions
 
 2 - Write a function that prints strings, followed by a new line.
 
+3 - Write a function that prints anything.
+
