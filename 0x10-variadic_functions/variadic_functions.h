@@ -1,4 +1,4 @@
-fndef VARFUNC
+#ifndef VARFUNC
 #define VARFUNC
 #include <stdarg.h>
 
