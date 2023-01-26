@@ -10,3 +10,10 @@
 
 4 - Write a function that frees a list_t list.
 
+5 - Write a funct
+
+ion that prints You're beat! and yet, you must allow,
+I bore my house upon my back!n before t
+
+he main function is executed.
+
