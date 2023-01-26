@@ -17,3 +17,5 @@ I bore my house upon my back!n before t
 
 he main function is executed.
 
+6 - Write a 64-bit program in assembly that prints Hello, Holberton, followed by a new line.
+
