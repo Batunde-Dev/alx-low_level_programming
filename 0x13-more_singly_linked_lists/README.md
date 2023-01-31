@@ -28,3 +28,5 @@ Write a function that returns the number of elements in a linked listint_t list.
 
 13 - Write a function that frees a listint_t list.
 
+Write a function that finds the loop in a linked list.
+
