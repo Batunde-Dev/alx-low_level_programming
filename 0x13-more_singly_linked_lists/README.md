@@ -20,3 +20,5 @@ Write a function that returns the number of elements in a linked listint_t list.
 
 9 - Write a function that inserts a new node at a given position.
 
+10 - Write a function that deletes the node at index index of a listint_t linked list.
+
