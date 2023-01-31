@@ -22,3 +22,5 @@ Write a function that returns the number of elements in a linked listint_t list.
 
 10 - Write a function that deletes the node at index index of a listint_t linked list.
 
+11 - Write a function that reverses a listint_t linked list.
+
