@@ -10,3 +10,5 @@ Write a function that returns the number of elements in a linked listint_t list.
 
 4 - Write a function that frees a listint_t list.
 
+5 - Write a function that frees a listint_t list.
+
