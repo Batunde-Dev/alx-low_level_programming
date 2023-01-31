@@ -18,3 +18,5 @@ Write a function that returns the number of elements in a linked listint_t list.
 
 8 - Write a function that returns the sum of all the data (n) of a listint_t linked list.
 
+9 - Write a function that inserts a new node at a given position.
+
