@@ -1,4 +1,4 @@
-#include "lists."
+#include "lists.h"
 
 /**
  * delete_nodeint_at_index - Function that delete a nodo
