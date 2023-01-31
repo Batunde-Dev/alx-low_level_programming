@@ -24,3 +24,5 @@ Write a function that returns the number of elements in a linked listint_t list.
 
 11 - Write a function that reverses a listint_t linked list.
 
+12 - Write a function that prints a listint_t linked list.
+
