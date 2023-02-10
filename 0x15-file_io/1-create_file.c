@@ -1,13 +1,41 @@
 #include "main.h"
 
 /**
- * print_binary - Prints the binary representation of a number.
- * @n: The number to be printed in binary.
+ * _strlen - finds the length of a string
+ * @str: pointer to the string
+ *
+ * Return: length of the string
  */
-void print_binary(unsigned long int n)
+size_t _strlen(char *str)
 {
-	if (n > 1)
-		print_binary(n >> 1);
+	size_t i;
 
-	_putchar((n & 1) + '0');
+	for (i = 0; str[i]; i++)
+		;
+	return (i);
+}
+
+/**
+ * create_file - creates a file.
+ * @filename: name of the file to create
+ * @text_content: NULL terminated string to write to the file
+ *
+ * Return: 1 on success, -1 on failure
+ */
+int create_file(const char *filename, char *text_content)
+{
+	int fd;
+	ssize_t len = 0;
+
+	if (filename == NULL)
+		return (-1);
+	fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
+	if (fd == -1)
+		return (-1);
+	if (text_content != NULL)
+		len = write(fd, text_content, _strlen(text_content));
+	close(fd);
+	if (len == -1)
+		return (-1);
+	return (1);
 }
