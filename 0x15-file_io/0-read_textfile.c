@@ -1,28 +1,46 @@
-#include <stdio.h>
-#include "holberton.h"
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdlib.h>
 
 /**
- * binary_to_uint - Function that converts a binary number to an unsigned int.
- * Prototype: unsigned int binary_to_uint(const char *b);
- * @b: is pointing to a string of 0 and 1 chars
- * Return: the converted number, or 0 if
- * -> there is one or more chars in the string b that is not 0 or 1
- * -> b is NULL
+ * read_textfile - prints text from a file
+ *
+ * @filename: name of the file
+ * @letters: number of characters to read
+ *
+ * Return: actual number of letters read, 0 if end of file
  */
-unsigned int binary_to_uint(const char *b)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
-	unsigned int value = 0;
+	int file;
+	int length, wrotechars;
+	char *buf;
 
-	if (b == NULL)
+	if (filename == NULL || letters == 0)
 		return (0);
-	while (*b != '\0')
+	buf = malloc(sizeof(char) * (letters));
+	if (buf == NULL)
+		return (0);
+
+	file = open(filename, O_RDONLY);
+	if (file == -1)
 	{
-		value = value << 1;
-		if (*b != '1' && *b != '0')
-			return (0);
-		else if (*b == '1')
-			value = value | 1;
-		b++;
+		free(buf);
+		return (0);
 	}
-	return (value);
+	length = read(file, buf, letters);
+	if (length == -1)
+	{
+		free(buf);
+		close(file);
+		return (0);
+	}
+
+	wrotechars = write(STDOUT_FILENO, buf, length);
+
+	free(buf);
+	close(file);
+	if (wrotechars != length)
+		return (0);
+	return (length);
 }
