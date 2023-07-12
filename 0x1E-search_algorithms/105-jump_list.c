@@ -1,4 +1,6 @@
 #include "search_algos.h"
+#include <math.h>
+
 
 /**
  * linear_skip - Searches using linear skip.
